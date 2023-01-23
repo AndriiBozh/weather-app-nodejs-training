@@ -1,6 +1,6 @@
 const request = require("postman-request");
 
-const KEY = "b21962e623e279ac8567ca1417dd3caf";
+const KEY = "secret-key-from-weatherstack-com";
 
 const weather = (city, callback) => {
   const url = `http://api.weatherstack.com/current?access_key=${KEY}&query=${city}`;
